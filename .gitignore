@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+
+# Environment
+.env
+
+# Data and Models
+data/*
+!data/.gitkeep
+chroma_db/
+
+# IDE
+.vscode/
+.idea/
+veniceai-api-docs/

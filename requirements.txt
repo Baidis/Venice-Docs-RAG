@@ -1,0 +1,34 @@
+# Environment Variables
+python-dotenv         # Loads environment variables from .env files
+
+# LangChain Framework and Components
+langchain            # Main LangChain framework
+langchain-community  # Community-maintained LangChain integrations
+langchain-openai     # OpenAI integration for LangChain
+langchain-core       # Core LangChain functionality
+langchain-chroma     # Chroma integration for LangChain
+langchain-huggingface # Hugging Face integration for LangChain
+
+# Vector Database
+chromadb            # Vector database for storing and querying embeddings
+
+# Data Processing
+pandas              # Data manipulation and analysis
+numpy              # Numerical computing and arrays
+
+# Deep Learning & GPU Support
+torch              # PyTorch deep learning framework
+sentence-transformers  # Text embeddings and transformers
+transformers       # Hugging Face transformers library
+accelerate        # Hardware acceleration for transformers
+bitsandbytes      # Quantization and memory optimization
+faiss-cpu         # Vector embeddings
+
+# Document Processing
+pypdf              # PDF file processing
+gitpython          # Required for GitLoader
+
+# Progress Tracking
+tqdm              # Progress bars for long-running operations
+
+
