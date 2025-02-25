@@ -22,14 +22,14 @@ A question-answering system that uses Venice AI's LLM capabilities combined with
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/veniceai/venice-api-docs.git
+git clone https://github.com/Baidis/Venice-Docs-RAG.git
 cd venice-api-docs
 ```
 
 2. Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+ python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
 ```
 
 3. Copy the environment template and configure your settings:
@@ -63,7 +63,7 @@ The system can be configured through environment variables:
 Run the main script to start the interactive QA system:
 
 ```bash
-python3 main.py
+python3 ./src/main.py
 ```
 
 
